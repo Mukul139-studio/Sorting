@@ -20,7 +20,7 @@ public class mergeSort {
         int k = 0;
 
         while(i<=mid && j<=end){
-            if(arr[i] < arr[j]){
+            if(arr[i] <= arr[j]){
                 temp[k] = arr[i];
                 i++;
             }else{
